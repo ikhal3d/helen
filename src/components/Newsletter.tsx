@@ -80,7 +80,7 @@ export const Newsletter = () => {
               </motion.button>
             </form>
             <p className="mt-4 text-xs text-ink-300">
-              By subscribing you agree to receive emails from Helen Skincare.
+              By subscribing you agree to receive emails from Odette Oils.
               Unsubscribe in one click, anytime.
             </p>
           </div>

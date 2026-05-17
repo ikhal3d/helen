@@ -4,7 +4,7 @@ import { LegalPage } from '@/components/LegalPage';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'How Helen Skincare collects, uses and protects your data.',
+  description: 'How Odette Oils collects, uses and protects your data.',
 };
 
 export default function PrivacyPage() {
@@ -18,7 +18,7 @@ export default function PrivacyPage() {
           {
             heading: '1. Who we are',
             body: [
-              'Helen Skincare ("we", "our", "us") is a small Australian online-only studio crafting botanical skincare oils. Our registered address is in Melbourne, Victoria. You can write to us at hello@helenskincare.com.',
+              'Odette Oils ("we", "our", "us") is a small Australian online-only studio crafting botanical skincare oils. Our registered address is in Melbourne, Victoria. You can write to us at hello@odetteoils.com.',
               'This policy explains what personal information we collect, how we use it, when we share it, and the rights you have over it. It applies to anyone who visits our website or buys from us.',
             ],
           },
@@ -51,7 +51,7 @@ export default function PrivacyPage() {
           {
             heading: '6. Your rights',
             body: [
-              'You can ask us at any time to see, correct, export or delete the personal information we hold on you. Write to hello@helenskincare.com and we will respond within 30 days.',
+              'You can ask us at any time to see, correct, export or delete the personal information we hold on you. Write to hello@odetteoils.com and we will respond within 30 days.',
             ],
           },
           {

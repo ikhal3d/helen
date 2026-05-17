@@ -42,14 +42,14 @@ export default function ContactPage() {
             <div>
               <span className="eyebrow">House Details</span>
               <h3 className="font-display text-3xl text-ink-500 mt-4">
-                Helen Skincare
+                Odette Oils
               </h3>
               <p className="text-sm text-ink-300 mt-1">An online-only atelier</p>
             </div>
 
             <div className="space-y-5 text-sm">
               <a
-                href="mailto:hello@helenskincare.com"
+                href="mailto:hello@odetteoils.com"
                 className="flex items-start gap-4 group"
               >
                 <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-gold-50 text-gold-600 group-hover:bg-gold-gradient group-hover:text-cream-50 transition-all">
@@ -60,13 +60,13 @@ export default function ContactPage() {
                     General enquiries
                   </span>
                   <span className="block text-ink-500 font-medium">
-                    hello@helenskincare.com
+                    hello@odetteoils.com
                   </span>
                 </span>
               </a>
 
               <a
-                href="mailto:wholesale@helenskincare.com"
+                href="mailto:wholesale@odetteoils.com"
                 className="flex items-start gap-4 group"
               >
                 <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-gold-50 text-gold-600 group-hover:bg-gold-gradient group-hover:text-cream-50 transition-all">
@@ -77,7 +77,7 @@ export default function ContactPage() {
                     Wholesale
                   </span>
                   <span className="block text-ink-500 font-medium">
-                    wholesale@helenskincare.com
+                    wholesale@odetteoils.com
                   </span>
                 </span>
               </a>

@@ -1,6 +1,6 @@
-# Helen — Botanical Skincare
+# Odette Oils — Botanical Skincare
 
-A premium, cinematic, luxury ecommerce experience for Helen's natural skincare oil brand. Built with **Next.js 14**, **TypeScript**, **Tailwind CSS** and **Framer Motion**, statically exportable and ready to host on **GitHub Pages** out of the box.
+A premium, cinematic, luxury ecommerce experience for **Odette Oils**, Helen's natural botanical skincare brand. Built with **Next.js 14**, **TypeScript**, **Tailwind CSS** and **Framer Motion**, statically exportable and ready to host on **GitHub Pages** out of the box.
 
 > A modern luxury wellness experience — gold accents, floating botanicals, cold-pressed storytelling, and a conversion-focused storefront.
 
@@ -29,7 +29,7 @@ A premium, cinematic, luxury ecommerce experience for Helen's natural skincare o
 - Smooth page transitions, scroll-triggered reveals, glassmorphism, gold shimmer.
 - Premium typography (Cormorant Garamond + Inter + Italianno).
 - Zustand-powered cart with **localStorage persistence**, drawer + full-page views.
-- Discount codes (`HELEN10`, `WELCOME15`, `RADIANCE`), shipping logic, complimentary threshold.
+- Discount codes (`ODETTE10`, `WELCOME15`, `RADIANCE`), shipping logic, complimentary threshold.
 - Stripe Checkout (hosted) **and** PayPal Smart Buttons fully wired in the UI.
 - Mobile-first, fully responsive, SEO metadata on every page.
 - Static export — no server required for the storefront.
@@ -61,9 +61,9 @@ Copy `.env.example` to `.env.local`, then fill in the values you need.
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_…
 NEXT_PUBLIC_STRIPE_CHECKOUT_ENDPOINT=https://your-api.example.com/api/create-checkout-session
 NEXT_PUBLIC_PAYPAL_CLIENT_ID=sandbox-or-live-id
-NEXT_PUBLIC_SITE_URL=https://helenskincare.com
+NEXT_PUBLIC_SITE_URL=https://odetteoils.com
 NEXT_PUBLIC_CURRENCY=AUD
-NEXT_PUBLIC_CONTACT_EMAIL=hello@helenskincare.com
+NEXT_PUBLIC_CONTACT_EMAIL=hello@odetteoils.com
 ```
 
 All `NEXT_PUBLIC_*` variables are baked into the static bundle at build time. Never put a `STRIPE_SECRET_KEY` here — that lives only on the serverless endpoint.
@@ -75,7 +75,7 @@ All `NEXT_PUBLIC_*` variables are baked into the static bundle at build time. Ne
 GitHub Pages is a static host. Stripe Checkout requires a **server** to create a session with your secret key. We solve this with a tiny serverless function deployed separately — the static front-end calls it via the `NEXT_PUBLIC_STRIPE_CHECKOUT_ENDPOINT` URL.
 
 ```
-Browser (helenskincare.com on GitHub Pages)
+Browser (odetteoils.com on GitHub Pages)
         │
         │   POST /api/create-checkout-session
         ▼
@@ -122,7 +122,7 @@ When you outgrow GitHub Pages, the same codebase can be deployed unchanged to:
 
 The site will be live at `https://<your-username>.github.io/<repo-name>/` within a couple of minutes.
 
-> **Custom domain?** Add a `public/CNAME` file containing `helenskincare.com`, set the DNS, then change `basePath` handling: when you have a custom apex domain you can remove the `basePath` line from `next.config.mjs` (or simply skip setting `GITHUB_PAGES=true` in the workflow).
+> **Custom domain?** Add a `public/CNAME` file containing `odetteoils.com`, set the DNS, then change `basePath` handling: when you have a custom apex domain you can remove the `basePath` line from `next.config.mjs` (or simply skip setting `GITHUB_PAGES=true` in the workflow).
 
 ---
 
@@ -230,4 +230,4 @@ This build ships with **pure-SVG** product visuals (rendered by `<ProductBottle 
 
 ## License
 
-Copyright © Helen Skincare. All rights reserved.
+Copyright © Odette Oils. All rights reserved.

@@ -4,7 +4,7 @@ import { LegalPage } from '@/components/LegalPage';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'The terms under which Helen Skincare provides this site and our products.',
+  description: 'The terms under which Odette Oils provides this site and our products.',
 };
 
 export default function TermsPage() {
@@ -18,13 +18,13 @@ export default function TermsPage() {
           {
             heading: '1. Acceptance',
             body: [
-              'By using helenskincare.com or buying from us you agree to these terms. If you do not agree, please do not use the site.',
+              'By using this site or buying from us you agree to these terms. If you do not agree, please do not use the site.',
             ],
           },
           {
             heading: '2. Products',
             body: [
-              'Helen Skincare oils are cosmetic products intended for external use only. They are not medicines, do not treat or diagnose any condition, and are not a substitute for professional medical advice.',
+              'Odette Oils products are cosmetic items intended for external use only. They are not medicines, do not treat or diagnose any condition, and are not a substitute for professional medical advice.',
               'If you have a known allergy to any of the ingredients listed on a product, please do not use that product. Discontinue use and seek medical advice if irritation occurs.',
             ],
           },
@@ -45,14 +45,14 @@ export default function TermsPage() {
           {
             heading: '5. Returns & refunds',
             body: [
-              'We offer a 30-day satisfaction guarantee on opened bottles. If a Helen oil does not work for your skin, write to hello@helenskincare.com within 30 days of delivery and we will arrange a refund or exchange.',
+              'We offer a 30-day satisfaction guarantee on opened bottles. If an Odette oil does not work for your skin, write to hello@odetteoils.com within 30 days of delivery and we will arrange a refund or exchange.',
               'Refunds are issued to the original payment method. Shipping costs are non-refundable unless the return is due to a fault on our part.',
             ],
           },
           {
             heading: '6. Intellectual property',
             body: [
-              'All content on this site, including text, images, logos, branding and packaging design, is the property of Helen Skincare and may not be reproduced without written permission.',
+              'All content on this site, including text, images, logos, branding and packaging design, is the property of Odette Oils and may not be reproduced without written permission.',
             ],
           },
           {

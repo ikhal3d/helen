@@ -28,12 +28,12 @@ const milestones = [
   },
   {
     year: '2022',
-    title: 'Helen Studio',
-    text: 'After years of personal formulation, Helen quietly launches the first cold-pressed face oil from her home studio.',
+    title: 'Odette Studio',
+    text: 'After years of personal formulation, Helen quietly launches the first cold-pressed face oil from her home studio, under the name Odette.',
   },
   {
     year: '2026',
-    title: 'House of Helen',
+    title: 'House of Odette',
     text: 'The collection grows to three rituals. Distribution stays small-batch and direct, by design.',
   },
 ];

@@ -14,7 +14,7 @@ export const ProductBottle = ({
   accent,
   deepAccent,
   size = 280,
-  label = 'Helen',
+  label = 'Odette',
   shimmer = true,
 }: ProductBottleProps) => {
   const id = label.replace(/\s+/g, '-').toLowerCase();
@@ -127,7 +127,7 @@ export const ProductBottle = ({
           fontSize="20"
           fontStyle="italic"
         >
-          Helen
+          Odette
         </text>
         <text
           x="140"

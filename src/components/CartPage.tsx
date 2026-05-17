@@ -199,7 +199,7 @@ export const CartPage = () => {
                   setCode(e.target.value);
                   setError('');
                 }}
-                placeholder="e.g. HELEN10"
+                placeholder="e.g. ODETTE10"
                 className="flex-1 rounded-full border border-cream-200 px-4 py-2.5 text-sm focus:border-gold-400 focus:outline-none"
               />
               <button
@@ -217,7 +217,7 @@ export const CartPage = () => {
           )}
           {error && <p className="text-xs text-red-500">{error}</p>}
           <p className="text-xs text-ink-300">
-            Try <span className="font-medium text-ink-500">HELEN10</span> or{' '}
+            Try <span className="font-medium text-ink-500">ODETTE10</span> or{' '}
             <span className="font-medium text-ink-500">WELCOME15</span>.
           </p>
         </div>

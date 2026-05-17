@@ -53,7 +53,7 @@ export const benefitIcons = {
   heart: HeartIcon,
 } as const;
 
-export const HelenMonogram = (props: IconProps) => (
+export const OdetteMonogram = (props: IconProps) => (
   <svg viewBox="0 0 100 100" fill="none" {...props}>
     <circle cx="50" cy="50" r="48" stroke="currentColor" strokeWidth="0.6" opacity="0.45" />
     <circle cx="50" cy="50" r="42" stroke="currentColor" strokeWidth="0.4" opacity="0.3" />
@@ -71,7 +71,7 @@ export const HelenMonogram = (props: IconProps) => (
       fontWeight="300"
       fill="currentColor"
     >
-      H
+      O
     </text>
   </svg>
 );

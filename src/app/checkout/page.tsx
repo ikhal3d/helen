@@ -4,7 +4,7 @@ import { Checkout } from '@/components/Checkout';
 
 export const metadata: Metadata = {
   title: 'Checkout',
-  description: 'Securely complete your Helen Skincare order.',
+  description: 'Securely complete your Odette Oils order.',
 };
 
 export default function CheckoutPage() {

@@ -24,7 +24,7 @@ export function generateMetadata({
     title: product.name,
     description: product.shortDescription,
     openGraph: {
-      title: `${product.name} · Helen Skincare`,
+      title: `${product.name} · Odette Oils`,
       description: product.shortDescription,
     },
   };

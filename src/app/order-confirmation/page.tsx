@@ -5,7 +5,7 @@ import { OrderConfirmation } from '@/components/OrderConfirmation';
 
 export const metadata: Metadata = {
   title: 'Order Confirmed',
-  description: 'Your Helen Skincare order has been received.',
+  description: 'Your Odette Oils order has been received.',
 };
 
 export default function OrderConfirmationPage() {

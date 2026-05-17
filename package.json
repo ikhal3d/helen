@@ -1,8 +1,8 @@
 {
-  "name": "helen-skincare",
+  "name": "odette-oils",
   "version": "1.0.0",
   "private": true,
-  "description": "Premium luxury ecommerce website for Helen's natural skincare oils",
+  "description": "Premium luxury ecommerce website for Odette Oils — Helen's natural botanical skincare brand",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

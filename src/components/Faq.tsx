@@ -6,7 +6,7 @@ import { Plus, Minus } from 'lucide-react';
 
 const faqs = [
   {
-    q: 'Are Helen oils suitable for sensitive skin?',
+    q: 'Are Odette oils suitable for sensitive skin?',
     a: 'Yes. Every formula is fragrance-free and dermatologist-tested for sensitive, reactive, acne-prone and rosacea-prone skin. We use only food-grade, cold-pressed plant oils.',
   },
   {
@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: 'Can I return an opened bottle?',
-    a: 'Yes. If a Helen oil does not work for your skin, write to us within 30 days and we will refund or exchange it — even if the bottle is opened. We test on humans, not animals.',
+    a: 'Yes. If an Odette oil does not work for your skin, write to us within 30 days and we will refund or exchange it — even if the bottle is opened. We test on humans, not animals.',
   },
   {
     q: 'How long do the oils last?',
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: 'Do you offer wholesale or stockist accounts?',
-    a: 'We work with a very small number of stockists. Write to wholesale@helenskincare.com with your store details and we will respond personally.',
+    a: 'We work with a very small number of stockists. Write to wholesale@odetteoils.com with your store details and we will respond personally.',
   },
 ];
 

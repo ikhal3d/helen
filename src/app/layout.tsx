@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
     : undefined,
   title: {
-    default: 'Helen — Pure Botanical Skincare Oils',
-    template: '%s · Helen Skincare',
+    default: 'Odette Oils — Pure Botanical Skincare',
+    template: '%s · Odette Oils',
   },
   description:
-    'Helen creates science-backed botanical oils for face, hair and beard. Naturally extracted, ethically sourced, and crafted by a biomedical scientist for radiant, healthy skin.',
+    'Odette Oils — science-backed botanical oils for face, hair and beard. Naturally extracted, ethically sourced, and crafted by Helen, a biomedical scientist, for radiant, healthy skin.',
   keywords: [
     'natural skincare',
     'face oil',
@@ -47,19 +47,19 @@ export const metadata: Metadata = {
     'luxury skincare',
     'organic skincare',
     'biomedical skincare',
-    'Helen skincare',
+    'Odette Oils',
   ],
-  authors: [{ name: 'Helen' }],
+  authors: [{ name: 'Odette Oils' }],
   openGraph: {
-    title: 'Helen — Pure Botanical Skincare Oils',
+    title: 'Odette Oils — Pure Botanical Skincare',
     description:
-      'Science-backed botanical oils for face, hair and beard. Crafted by a biomedical scientist.',
+      'Science-backed botanical oils for face, hair and beard. Crafted by Helen, a biomedical scientist.',
     type: 'website',
-    siteName: 'Helen Skincare',
+    siteName: 'Odette Oils',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Helen — Pure Botanical Skincare Oils',
+    title: 'Odette Oils — Pure Botanical Skincare',
     description:
       'Science-backed botanical oils for face, hair and beard.',
   },

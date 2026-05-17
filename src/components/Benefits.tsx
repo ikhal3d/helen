@@ -40,7 +40,7 @@ export const Benefits = () => (
   <section className="relative py-28 md:py-40">
     <div className="container-luxe">
       <div className="max-w-3xl mx-auto text-center">
-        <span className="eyebrow justify-center">Why Helen</span>
+        <span className="eyebrow justify-center">Why Odette</span>
         <motion.h2
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}

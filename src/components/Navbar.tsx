@@ -51,19 +51,19 @@ export const Navbar = () => {
           <Link
             href="/"
             className="group flex items-center gap-3"
-            aria-label="Helen Skincare home"
+            aria-label="Odette Oils home"
           >
             <span className="relative inline-flex h-10 w-10 items-center justify-center">
               <span className="absolute inset-0 rounded-full bg-gold-gradient opacity-90 group-hover:opacity-100 transition-opacity" />
               <span className="absolute inset-0.5 rounded-full bg-cream-50" />
-              <span className="relative font-display text-xl text-gold-600">H</span>
+              <span className="relative font-display text-xl text-gold-600">O</span>
             </span>
             <span className="hidden sm:flex flex-col leading-none">
               <span className="font-display text-2xl tracking-tight text-ink-500">
-                Helen
+                Odette
               </span>
               <span className="text-[0.6rem] tracking-widest-2 uppercase text-gold-500">
-                Botanical Skincare
+                Botanical Oils
               </span>
             </span>
           </Link>
@@ -178,7 +178,7 @@ export const Navbar = () => {
               </nav>
               <div className="mt-auto px-6 py-10 text-sm text-ink-300 space-y-1">
                 <p className="font-medium text-ink-500">Stay in touch</p>
-                <p>hello@helenskincare.com</p>
+                <p>hello@odetteoils.com</p>
               </div>
             </motion.div>
           </motion.div>

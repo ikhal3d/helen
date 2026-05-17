@@ -21,7 +21,7 @@ type CartState = {
 };
 
 const DISCOUNTS: Record<string, number> = {
-  HELEN10: 10,
+  ODETTE10: 10,
   WELCOME15: 15,
   RADIANCE: 20,
 };
@@ -100,7 +100,7 @@ export const useCart = create<CartState>()(
         set({ discountCode: null, discountPercent: 0 }),
     }),
     {
-      name: 'helen-cart',
+      name: 'odette-cart',
       storage: createJSONStorage(() => localStorage),
     }
   )
