@@ -29,9 +29,9 @@ const script = Italianno({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? 'https://helenskincare.com'
-  ),
+  metadataBase: process.env.NEXT_PUBLIC_SITE_URL
+    ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
+    : undefined,
   title: {
     default: 'Helen — Pure Botanical Skincare Oils',
     template: '%s · Helen Skincare',
